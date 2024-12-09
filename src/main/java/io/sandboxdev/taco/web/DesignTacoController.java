@@ -52,8 +52,8 @@ public class DesignTacoController {
     }
 
     @GetMapping
-    public String showDesignForm(){
-        return "design";
+    public String showDesignForm() {
+        return "designForm";
     }
 
     private List<Ingredient> filterByType(List<Ingredient> ingredients, Ingredient.Type type) {
